@@ -2,10 +2,10 @@ import requests
 import os
 import sys
 
-CURRENT_VERSION = "1.0.0"
+CURRENT_VERSION = "2.0.0"
 # Sostituisci questi valori con i dati reali del tuo GitHub
-REPO_OWNER = "IL_TUO_NOME_UTENTE_GITHUB"
-REPO_NAME = "IL_NOME_DEL_TUO_REPOSITORY"
+REPO_OWNER = "PaoloCa"
+REPO_NAME = "TestVersion"
 
 def check_for_updates():
     print(f"Versione corrente: {CURRENT_VERSION}")
