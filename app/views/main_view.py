@@ -6,7 +6,7 @@ class MainView(ctk.CTk):
         self.controller = controller
         
         # Configurazione Finestra Principale
-        self.title("Applicazione MVC Agile")
+        self.title("Applicazione MVC Agile aggiornata")
         self.geometry("500x350")
         self.resizable(False, False)
         ctk.set_appearance_mode("dark")
